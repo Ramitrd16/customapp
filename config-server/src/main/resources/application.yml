@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///home/hstpl_lap_288/Downloads/MICRO/git-localconfig-repo
+
+server:
+  port: 8888
